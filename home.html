@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+<title>Carson Vintage</title>
+<style>
+body{background-color: #006666; color: #FFF8DC; font-family: "Arial", sans-serif; margin: 0; padding: 0;}
+.banner{display: flex; align-items: center; justify-content: center; background-color: #008080;padding: 20px; color: #FFE4B5} 
+.h2{font-family:lucida bright, aptos; color:#422a69}
+.p{font-family:aptos}
+.logo{ position: absolute; left: 40px; } 
+.banner-text ul{list-style: none; display: flex; padding: 0; margin: 0; font-family:lucida bright; font-size:24px} 
+.banner-text ul li a{text-decoration: none; color: #FFE4B5; font-weight: bold; transition: color 0.3s;}
+.banner-text ul li a:hover {color: #FFD700;}
+ul,li{display:inline; padding: 20px}
+.car-item{box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: all 0.5s ease-in-out; cursor: pointer;}
+.car-item:hover{transform: scale(1.05); box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);}
+.content{padding: 20px; background-color: #008B8B; border-radius: 5px; margin: 20px 10px; color: #FFF8DC; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}.car-list{ display: flex; flex-wrap: wrap; justify-content: space-around; } 
+.h2 h2{font-family: "Georgia", serif; font-size: 28px; color: #FFD700;}
+.car-list{display: flex; flex-wrap: wrap; justify-content: space-around}
+.car-item{background-color: #FFF8DC; border-radius: 5px; margin: 10px; padding: 20px; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #006666;}
+.car-item h3{margin-top: 15px; font-size: 20px;}
+.aboutus {padding: 20px; background-color: #008080; border-radius: 5px; margin: 20px 10px; color: #FFF8DC; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+.aboutus p{font-size: 16px; line-height: 1.6;}
+button{padding:5; height:30px; width:80px; background-color:#006666; color:#FFD700; font-family:aptos; border-radius:4px; border-color:#FFD700; cursor:pointer; font-weight:bold}
+.review{padding: 20px; background-color: #008080; border-radius: 5px; margin: 20px 10px; color: #FFF8DC; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+.footer{background-color: #006666; color: #FFF8DC; text-align:center; padding: 20px;border-top: 2px solid #FFD700;}
+.footer h4{margin: 0}
+html{scroll-behavior:smooth}
+</style>
+</head>
+<body> 
+<div class="banner"> 
+<img src="C:\Users\abdul\Downloads\logo.png" width="70" height="60" alt="Logo" class="logo"> 
+<div class="banner-text">
+<ul>
+<i>
+<li><a href="file:///C:/Users/abdul/OneDrive/Desktop/cardealer.html" style="text-decoration:none">Home</a></li>
+<li><a href="file:///C:/Users/abdul/OneDrive/Desktop/carsection.html" style="text-decoration:none">Cars</a></li>
+<li><a href="file:///C:/Users/abdul/OneDrive/Desktop/bikesection.html" style="text-decoration:none">Bikes</a></li>
+<li><a href="file:///C:/Users/abdul/OneDrive/Desktop/services.html" style="text-decoration:none">Services</a></li>
+<li><a href="#about">About Us</a></li>
+</i>
+</ul>
+</div> 
+</div> 
+<section>
+<img src="C:\Users\abdul\Downloads\banner.jpg" width="101.5%" style="padding-top:10px; margin-top:10px; margin-left:-10px; margin-right:-20px">
+</section>
+<div class="content">
+<div class="h2">
+<h2>Upcoming Cars</h2>
+</div>
+<div class="car-list">
+<div class="car-item">
+<img src="C:\Users\abdul\Downloads\kiasportagenew.png" width="300" height="250" alt="Kia Sportage 5th Generation">
+<h3 style="transform: translate(0px,-10px)">Kia Sportage 5th Generation</h3>
+<p style="transform: translate(0px,-10px)">Expected Price: <strong>PKR 1.2 Cr</strong></p>
+</div>
+<div class="car-item">
+<img src="https://vehicle-images.dealerinspire.com/stock-images/chrome/89fd5c854804838ec62aa070158ddd6a.png" width="300" height="240" alt="Hyundai Tuscon 4th Generation">
+<h3 border-color:#f4f4f4>Hyundai Tuscon 4th Generation</h3>
+<p>Expected Price: <strong>PKR 1.1 Cr</strong></p>
+</div>
+<div class="car-item">
+<img src="C:\Users\abdul\Downloads\sorento-removebg.png" width="320" height="190" style="transform: translate(-10px,20px);" alt="Kia Sorento 5th Generation">
+<h3 style="transform: translate(0px,50px)">Kia Sorento 5th Generation</h3>
+<p style="transform: translate(0px,50px)">Expected Price: <strong>PKR 1.8 Cr</strong></p>
+</div>
+</div>
+</div>
+<div class="review">
+<div class="h2">
+<h2>Review</h2>
+</div>
+<form>
+<label for="Review">Add a Review:</label><br>
+<textarea id="Review" name="Review" rows="5" cols="50"></textarea>
+<br><br>
+<button type="button">Submit</button>
+</form>
+</div>
+<div class="aboutus">
+<div class="h2">
+<h2 id="about">About Us</h2>
+</div>
+<div class="p">
+<p>Carson Vintage is not only a hub where buyers and sellers can interact, but it is also a comprehensive automotive portal with a forum dedicated to all automotive discussions, a blog that keeps the users up to date with the latest happenings in the auto industry of Pakistan and the world at large. There is also a separate review section for all the cars and bikes available in Pakistan and much more!</p>
+</div>
+</div>
+<br>
+<div class="footer">
+<h4>Copyright&#169 2003-2024 Carson Vintage(Pvt)Ltd. All Rights Reserved.</h4>
+</div>
+</body>

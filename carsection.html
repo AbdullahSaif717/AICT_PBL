@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head>
+<title>Cars Section</title>
+<style>
+body{background-color: #006666; color: #FFF8DC; font-family: "Arial", sans-serif; margin: 0; padding: 0;}
+.banner{display: flex; align-items: center; justify-content: center; background-color: #008080;padding: 20px; color: #FFE4B5} 
+.h2{font-family:lucida bright, aptos; color:#422a69}
+.p{font-family:aptos}
+.logo{ position: absolute; left: 40px; } 
+.banner-text ul{list-style: none; display: flex; padding: 0; margin: 0; font-family:lucida bright; font-size:24px} 
+.banner-text ul li a{text-decoration: none; color: #FFE4B5; font-weight: bold; transition: color 0.3s;}
+.banner-text ul li a:hover {color: #FFD700;}
+ul,li{display:inline; padding: 20px}
+.car-item{box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: all 0.5s ease-in-out; cursor: pointer;}
+.car-item:hover{transform: scale(1.05); box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);}
+.content{padding: 20px; background-color: #008B8B; border-radius: 5px; margin: 20px 10px; color: #FFF8DC; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+.h2 h2{font-family: "Georgia", serif; font-size: 28px; color: #FFD700;}
+.car-list{display: flex; flex-wrap: wrap; justify-content: space-around}
+.car-item{background-color: #FFF8DC; border-radius: 5px; margin: 10px; padding: 20px; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #006666;}
+.car-item h3{margin-top: 15px; font-size: 20px;}
+.aboutus {padding: 20px; background-color: #008080; border-radius: 5px; margin: 20px 10px; color: #FFF8DC; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+.aboutus p{font-size: 16px; line-height: 1.6;}
+form{background-color:#d8d6d8; font-family:calibri; width:750px; height:800px; border-radius:4px;margin-bottom:10px; padding:10px}
+.form{margin:0; width:770px; height:900px; padding:10px; background-color: #008B8B; border-radius: 5px; margin: 20px 10px; color: #006666; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); margin-left:230px}
+input[type=text]{width:100%; height:5%}
+textarea{width:100%}
+button{padding:5; height:30px; width:100px; background-color:#006666; color:#FFD700; font-family:aptos; border-radius:4px; border-color:#FFD700; cursor:pointer; font-weight:bold}
+.review{padding: 20px; background-color: #008080; border-radius: 5px; margin: 20px 10px; color: #FFF8DC; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}
+.footer{background-color: #006666; color: #FFF8DC; text-align:center; padding: 20px;border-top: 2px solid #FFD700;}
+.footer h4{margin: 0}
+html{scroll-behavior:smooth}
+</style>
+</head>
+<body>
+<body> 
+<div class="banner"> 
+<img src="C:\Users\abdul\Downloads\logo.png" width="70" height="60" alt="Logo" class="logo"> 
+<div class="banner-text">
+<ul>
+<i>
+<li><a href="file:///C:/Users/abdul/OneDrive/Desktop/cardealer.html" style="text-decoration:none">Home</a></li>
+<li><a href="file:///C:/Users/abdul/OneDrive/Desktop/carsection.html" style="text-decoration:none">Cars</a></li>
+<li><a href="file:///C:/Users/abdul/OneDrive/Desktop/bikesection.html" style="text-decoration:none">Bikes</a></li>
+<li><a href="file:///C:/Users/abdul/OneDrive/Desktop/services.html" style="text-decoration:none">Services</a></li>
+<li><a href="#about">About Us</a></li>
+</i>
+</ul>
+</div> 
+</div> 
+<section>
+<img src="C:\Users\abdul\Downloads\banner.jpg" width="101.5%" style="padding-top:10px; margin-top:10px; margin-left:-10px; margin-right:-20px"></section>
+<div class="content">
+<div class="h2">
+<h2>Modern Cars</h2>
+</div>
+<div class="car-list">
+<div class="car-item">
+<img src="C:\Users\abdul\Downloads\kiasportageavailable.png" style="transform: translate(0px,35px);" width="300" height="200" alt="Kia Sportage">
+<h3 style="transform: translate(0px,35px)">Kia Sportage</h3>
+<p style="transform: translate(0px,35px)">Price: <strong>PKR 80 Lac</strong></p>
+</div>
+<div class="car-item">
+<img src="C:\Users\abdul\Downloads\hyundaisonata.png" style="transform: translate(-10px,35px);" width="330" height="240" alt="Hyundai Sonata">
+<h3>Hyundai Sonata</h3>
+<p>Price: <strong>PKR 98 Lac</strong></p>
+</div>
+<div class="car-item">
+<img src="C:\Users\abdul\Downloads\suzukicultus.png" width="320" height="240" style="transform: translate(-10px,20px);" alt="Suzuki Cultus">
+<h3 style="transform: translate(0px,0px)">Suzuki Cultus</h3>
+<p style="transform: translate(0px,0px)">Price: <strong>PKR 45 Lac</strong></p>
+</div>
+</div>
+</div>
+<div class="content">
+<div class="h2">
+<h2>Vintage Cars</h2>
+</div>
+<div class="car-list">
+<div class="car-item">
+<img src="C:\Users\abdul\Downloads\hondaaccord1984.png" width="320" height="250" style="transform: translate(-10px,-10px);" alt="Honda Accord Hatchback 1984">
+<h3 style="transform: translate(0px,-10px)">Honda Accord Hatchback 1984</h3>
+<p style="transform: translate(0px,-10px)">Price: <strong>PKR 12 Lac</strong></p>
+</div>
+<div class="car-item">
+<img src="C:\Users\abdul\Downloads\suzukialto1985.png" width="300" height="200" style="transform: translate(7px,30px);" alt="Suzuiki Alto 1985">
+<h3 style="transform: translate(0px,40px)">Suzuki Alto 1985</h3>
+<p style="transform: translate(0px,40px)">Price: <strong>PKR 8 Lac</strong></p>
+</div>
+<div class="car-item">
+<img src="C:\Users\abdul\Downloads\toyotacrown1990.png" width="350" height="230" style="transform: translate(-15px,20px);" alt="Toyota Crown 1990">
+<h3 style="transform: translate(0px,10px)">Toyota Crown 1990</h3>
+<p style="transform: translate(0px,10px)">Price: <strong>PKR 18 Lac</strong></p>
+</div>
+</div>
+</div>
+<div class="form">
+<div class="h2">
+<h2>Book Now</h2>
+</div>
+<form>
+<br>
+<label for="Full Name">Full Name:</label><br>
+<input type="text" id="Full Name" name="Full Name" placeholder="Enter your full name">
+<br><br>
+<label for="Email Address">Email:</label><br>
+<input type="text" id="Email Address" name="Email Address" size="50" placeholder="Enter your email">
+<br><br>
+<label for="Phone">Phone:</label><br>
+<input type="text" id="Phone" name="Phone" placeholder="Enter your phone number">
+<br><br>
+<label for="Address">Address:</label><br>
+<input type="text" id="Address" name="Address" placeholder="Enter your home address">
+<br><br>
+<label for="cars">Choose the car:</label>
+<select name="cars" id="cars">
+<option value="select">Select your car</option>
+<option value="sportage">Kia Sportage</option>
+<option value="sonata">Hyundai Sonata</option>
+<option value="cultus">Suzuki Cultus</option>
+<option value="accord">Honda Accord Hatchback 1984</option>
+<option value="alto">Suzuki Alto 1985</option>
+<option value="crown">Toyota Crown 1990</option>
+</select>
+<br><br>
+<label for="account">Account Number:</label><br>
+<input type="text" id="account" name="account" placeholder="Enter your account number">
+<br><br>
+<label for="time">Expiry Date:</label><br>
+<input type="Date" id="time" name="time" placeholder="Enter the expiry date">
+<br><br>
+<label for="cvv">CVV:</label><br>
+<input type="text" id="cvv" name="cvv" placeholder="Enter the CVV">
+<br><br>
+<label for="message">Message:</label><br>
+<textarea id="message" name="message" rows="5" cols="50"></textarea>
+<br><br>
+<button type="button">Book</button>
+</form>
+</div>
+<div class="aboutus">
+<div class="h2">
+<h2 id="about">About Us</h2>
+</div>
+<div class="p">
+<p>Carson Vintage is not only a hub where buyers and sellers can interact, but it is also a comprehensive automotive portal with a forum dedicated to all automotive discussions, a blog that keeps the users up to date with the latest happenings in the auto industry of Pakistan and the world at large. There is also a separate review section for all the cars and bikes available in Pakistan and much more!</p>
+</div>
+</div>
+<div class="footer">
+<h4>Copyright&#169 2003-2024 Carson Vintage(Pvt)Ltd. All Rights Reserved.</h4>
+</div>
+</body>
