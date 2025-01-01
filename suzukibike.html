@@ -5,6 +5,9 @@
 body{background-color: #006666; color: #FFF8DC; font-family: "Arial", sans-serif; margin: 0; padding: 0;}
 .banner{display: flex; align-items: center; justify-content: center; background-color: #008080;padding: 20px; color: #FFE4B5} 
 .h2{font-family:lucida bright, aptos; color:#422a69}
+.container{width: 80%; margin: auto; overflow: hidden;}
+strong{font-size: 20px; line-height: 1.6; color: #FFE4B5; -webkit-text-stroke-width: 0.1px; -webkit-text-stroke-color: #422a69;}
+p{color: #FFF8DC; font-family:aptos; font-size:20px}
 .p{font-family:aptos}
 .logo{ position: absolute; left: 40px; } 
 .banner-text ul{list-style: none; display: flex; padding: 0; margin: 0; font-family:lucida bright; font-size:24px} 
@@ -13,7 +16,8 @@ body{background-color: #006666; color: #FFF8DC; font-family: "Arial", sans-serif
 ul,li{display:inline; padding: 20px}
 .car-item{box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: all 0.5s ease-in-out; cursor: pointer;}
 .car-item:hover{transform: scale(1.05); box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);}
-.content{padding: 20px; background-color: #008B8B; border-radius: 5px; margin: 20px 10px; color: #FFF8DC; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);}.car-list{ display: flex; flex-wrap: wrap; justify-content: space-around; } 
+.content{padding: 20px; background-color: #008B8B; border-radius: 5px; margin-top: 20px; margin-bottom:0px; margin-left:10px; margin-right:10px; color: #FFF8DC; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); height:480px}
+.car-list{ display: flex; flex-wrap: wrap; justify-content: space-around;} 
 .h2 h2{font-family: "Georgia", serif; font-size: 28px; color: #FFD700;}
 .car-list{display: flex; flex-wrap: wrap; justify-content: space-around}
 .car-item{background-color: #FFF8DC; border-radius: 5px; margin: 10px; padding: 20px; width: 300px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); color: #006666;}
@@ -42,41 +46,22 @@ html{scroll-behavior:smooth}
 </ul>
 </div> 
 </div> 
-<section>
-<img src="D:\AICT\PBL Website\images\banner.jpg" width="101.5%" style="padding-top:10px; margin-top:10px; margin-left:-10px; margin-right:-20px">
-</section>
 <div class="content">
 <div class="h2">
-<h2>Upcoming Cars</h2>
-</div>
-<div class="car-list">
-<div class="car-item">
-<img src="D:\AICT\PBL Website\images\kiasportagenew.png" width="300" height="250" alt="Kia Sportage 5th Generation">
-<h3 style="transform: translate(0px,-10px)">Kia Sportage 5th Generation</h3>
-<p style="transform: translate(0px,-10px)">Expected Price: <strong>PKR 1.2 Cr</strong></p>
-</div>
-<div class="car-item">
-<img src="https://vehicle-images.dealerinspire.com/stock-images/chrome/89fd5c854804838ec62aa070158ddd6a.png" width="300" height="240" alt="Hyundai Tuscon 4th Generation">
-<h3 border-color:#f4f4f4>Hyundai Tuscon 4th Generation</h3>
-<p>Expected Price: <strong>PKR 1.1 Cr</strong></p>
-</div>
-<div class="car-item">
-<img src="D:\AICT\PBL Website\images\sorento-removebg.png" width="320" height="190" style="transform: translate(-10px,20px);" alt="Kia Sorento 5th Generation">
-<h3 style="transform: translate(0px,50px)">Kia Sorento 5th Generation</h3>
-<p style="transform: translate(0px,50px)">Expected Price: <strong>PKR 1.8 Cr</strong></p>
+<h2>Car information</h2>
+<div class="container">
+<div class="car-info">
+<h2>Suzuki GSX-R600</h2>
+<p><strong>Manufacturer:</strong> Suzuki, Inc.</p>
+<p><strong>Year:</strong> 2005</p>
+<p><strong>Engine:</strong> 599cc</p>
+<p><strong>Range:</strong> 15 km/l</p>
+<p><strong>Top Speed:</strong> 250 kmh</p>
+<p><strong>Price:</strong> PKR 14 Lac</p>
+<img src="D:\AICT\PBL Website\images\suzukir600.png" style="transform: translate(400px,-340px);" width="650px" height="350px">
 </div>
 </div>
 </div>
-<div class="review">
-<div class="h2">
-<h2>Review</h2>
-</div>
-<form>
-<label for="Review">Add a Review:</label><br>
-<textarea id="Review" name="Review" rows="5" cols="50"></textarea>
-<br><br>
-<button type="button">Submit</button>
-</form>
 </div>
 <div class="aboutus">
 <div class="h2">
